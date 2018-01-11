@@ -25,6 +25,12 @@
 			<email>loneyf@ohsu.edu</email>
 			<organization>http://www.ohsu.edu/</organization>
 		</developer>
+		<developer>
+			<id>guw</id>
+			<name>Guanming Wu</name>
+			<email>guw@ohsu.edu</email>
+			<organization>http://www.ohsu.edu/</organization>
+		</developer>
 	</developers>
 
 	<properties>
@@ -90,7 +96,8 @@
 	</dependencies>
 
 	<build>
-		<!-- Generate compiled stuff in the folder used for developing mode -->
+		<!-- Compile classes directly into the webapp, so that IDEs and "mvn process-classes" 
+			update them in DevMode -->
 		<outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
 
 		<plugins>
@@ -197,7 +204,7 @@
 						<configuration>
 							<groupId>org.reactome.gsea</groupId>
 							<artifactId>gsea-model</artifactId>
-							<version>${project.version}-SNAPSHOT</version>
+							<version>${project.version}</version>
 							<packaging>jar</packaging>
 							<file>
 								target/gsea-model-${project.version}.jar

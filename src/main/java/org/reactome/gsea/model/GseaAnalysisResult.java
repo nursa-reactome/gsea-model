@@ -1,6 +1,6 @@
 package org.reactome.gsea.model;
 
-public class AnalysisResult {
+public class GseaAnalysisResult {
 
     private static final double[] UNKNOWN_REG_TYPE_BOUNDS = {-0.001, +0.001};
 

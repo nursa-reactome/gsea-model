@@ -13,9 +13,9 @@
         Reactome GSEA Data Model
     </description>
 
-    <organization>
-        <name>The European Bioinformatics Institute</name>
-        <url>http://www.ebi.ac.uk/</url>
+     <organization>
+        <name>Oregon Health and Science University</name>
+        <url>http://www.ohsu.edu/</url>
     </organization>
 
     <developers>

@@ -11,15 +11,19 @@ public class GseaAnalysisResult {
         public String getName() {
             return name;
         }
+        
         public void setName(String name) {
             this.name = name;
         }
+        
         public String getStId() {
             return stId;
         }
+        
         public void setStId(String stId) {
             this.stId = stId;
         }
+        
     }
 
     public enum RegulationType {
@@ -37,6 +41,7 @@ public class GseaAnalysisResult {
         public String toString() {
             return this.repr;
         }
+    
     };
 
     private Pathway pathway;
@@ -65,24 +70,31 @@ public class GseaAnalysisResult {
     public float getScore() {
         return score;
     }
+    
     public void setScore(float score) {
         this.score = score;
     }
+    
     public float getNormalizedScore() {
         return normalizedScore;
     }
+    
     public void setNormalizedScore(float normalizedScore) {
         this.normalizedScore = normalizedScore;
     }
+    
     public float getPvalue() {
         return pvalue;
     }
+    
     public void setPvalue(float pvalue) {
         this.pvalue = pvalue;
     }
+    
     public float getFdr() {
         return fdr;
     }
+    
     public void setFdr(float fdr) {
         this.fdr = fdr;
     }
@@ -97,4 +109,5 @@ public class GseaAnalysisResult {
             return RegulationType.UP;
         }
     }
+    
 }

@@ -45,7 +45,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <reactome.web.model>2.0.0</reactome.web.model>
-        <jackson.version>2.9.0</jackson.version>
+        <jackson.version>2.9.10.4</jackson.version>
 
         <appModule>org.reactome.gsea.GseaModel</appModule>
         <appName>${appModule}</appName>
